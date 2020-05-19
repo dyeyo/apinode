@@ -23,3 +23,5 @@ const HOST = process.env.host;
 app.listen(PORT, function () {
   console.log(`Server listening on ${HOST}:${PORT}/`);
 });
+
+module.exports.app = app;
